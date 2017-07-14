@@ -1,0 +1,23 @@
+.s-alert-box {
+    padding: 10px 40px 10px 10px !important;
+}
+
+.s-alert-close {
+    top: 0 !important;
+    right: 0 !important;
+    width: 30px !important;
+    height: 100% !important;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.s-alert-close::before,
+.s-alert-close::after {
+    background: #fff !important;
+    width: 1px !important;
+    height: 50% !important;
+}
+
+.s-alert-close:hover::before,
+.s-alert-close:hover::after {
+    background: #fff !important;
+}
